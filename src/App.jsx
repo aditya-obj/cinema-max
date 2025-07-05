@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-orange-900">
       <Header onSearch={handleSearch} />
-      <main className="container mx-auto px-2 sm:px-4 py-4 sm:py-6">
+      <main className="w-full px-4 sm:px-6 lg:px-8 py-4 sm:py-6 pt-28 sm:pt-32">
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
           {/* Sidebar - Responsive visibility */}
           <aside
