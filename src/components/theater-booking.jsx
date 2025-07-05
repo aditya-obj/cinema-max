@@ -104,16 +104,16 @@ export function TheaterBooking({
       </Card>
 
       {/* Language & Persons Selection */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 overflow-visible">
         {/* Language Selection */}
-        <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-white">
+        <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-white overflow-visible relative z-[200]">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Globe className="h-5 w-5 text-orange-400" />
               Select Language
             </CardTitle>
           </CardHeader>
-          <CardContent>
+          <CardContent className="overflow-visible">
             <Select value={selectedLanguage} onValueChange={setSelectedLanguage}>
               <SelectTrigger className="bg-white/90 text-black border-0 h-12 rounded-xl font-medium transition-all duration-300 hover:bg-white focus:ring-2 focus:ring-orange-400">
                 <SelectValue placeholder="Choose language" />
@@ -130,14 +130,14 @@ export function TheaterBooking({
         </Card>
 
         {/* Number of Persons */}
-        <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-white">
+        <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-white overflow-visible relative z-[200]">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Users className="h-5 w-5 text-orange-400" />
               Number of Persons
             </CardTitle>
           </CardHeader>
-          <CardContent>
+          <CardContent className="overflow-visible">
             <Select value={numberOfPersons} onValueChange={setNumberOfPersons}>
               <SelectTrigger className="bg-white/90 text-black border-0 h-12 rounded-xl font-medium transition-all duration-300 hover:bg-white focus:ring-2 focus:ring-orange-400">
                 <SelectValue placeholder="Select persons" />
