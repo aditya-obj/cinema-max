@@ -15,7 +15,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 1,
         title: "Spider-Man: No Way Home",
-        image: "/placeholder.svg?height=300&width=200&text=Spider-Man+Poster",
+        image: "/movies/spider.png",
         rating: 8.9,
         duration: "148 min",
         genre: "Action, Adventure",
@@ -25,7 +25,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 2,
         title: "Dune: Part Two",
-        image: "/placeholder.svg?height=300&width=200&text=Dune+Part+Two",
+        image: "/movies/dunc.png",
         rating: 8.7,
         duration: "166 min",
         genre: "Sci-Fi, Adventure",
@@ -35,7 +35,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 3,
         title: "Oppenheimer",
-        image: "/placeholder.svg?height=300&width=200&text=Oppenheimer+Poster",
+        image: "/movies/oppenheimer.png",
         rating: 9.2,
         duration: "180 min",
         genre: "Biography, Drama",
@@ -45,7 +45,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 4,
         title: "Guardians of Galaxy 3",
-        image: "/placeholder.svg?height=300&width=200&text=Guardians+Galaxy",
+        image: "/movies/gog.png",
         rating: 8.4,
         duration: "150 min",
         genre: "Action, Comedy",
@@ -55,7 +55,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 5,
         title: "John Wick 4",
-        image: "/placeholder.svg?height=300&width=200&text=John+Wick+4",
+        image: "/movies/john.png",
         rating: 8.6,
         duration: "169 min",
         genre: "Action, Thriller",
@@ -65,7 +65,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 6,
         title: "Fast X",
-        image: "/placeholder.svg?height=300&width=200&text=Fast+X+Poster",
+        image: "/movies/x.png",
         rating: 7.8,
         duration: "141 min",
         genre: "Action, Adventure",
@@ -76,7 +76,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 14,
         title: "Avatar: The Way of Water",
-        image: "/placeholder.svg?height=300&width=200&text=Avatar+Poster",
+        image: "/movies/avatar.png",
         rating: 8.5,
         duration: "192 min",
         genre: "Sci-Fi, Adventure",
@@ -86,7 +86,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 15,
         title: "Black Panther: Wakanda Forever",
-        image: "/placeholder.svg?height=300&width=200&text=Black+Panther+Poster",
+        image: "/movies/black-panther.png",
         rating: 8.2,
         duration: "161 min",
         genre: "Action, Adventure",
@@ -96,7 +96,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 16,
         title: "Top Gun: Maverick",
-        image: "/placeholder.svg?height=300&width=200&text=Top+Gun+Poster",
+        image: "/movies/top-gun.png",
         rating: 9.1,
         duration: "130 min",
         genre: "Action, Drama",
@@ -106,7 +106,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 17,
         title: "Doctor Strange: Multiverse",
-        image: "/placeholder.svg?height=300&width=200&text=Doctor+Strange+Poster",
+        image: "/movies/dr-strange.png",
         rating: 7.8,
         duration: "126 min",
         genre: "Action, Fantasy",
@@ -116,7 +116,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 18,
         title: "The Batman",
-        image: "/placeholder.svg?height=300&width=200&text=The+Batman+Poster",
+        image: "/movies/the-batman.png",
         rating: 8.7,
         duration: "176 min",
         genre: "Action, Crime",
@@ -128,7 +128,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 7,
         title: "Avengers: Secret Wars",
-        image: "/placeholder.svg?height=300&width=200&text=Avengers+Secret+Wars",
+        image: "/movies/avengers.png",
         rating: 0,
         duration: "TBA",
         genre: "Action, Adventure",
@@ -139,7 +139,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 8,
         title: "Deadpool 3",
-        image: "/placeholder.svg?height=300&width=200&text=Deadpool+3",
+        image: "/movies/deadpool.png",
         rating: 0,
         duration: "TBA",
         genre: "Action, Comedy",
@@ -150,7 +150,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 9,
         title: "Fantastic Four",
-        image: "/placeholder.svg?height=300&width=200&text=Fantastic+Four",
+        image: "/movies/ff.png",
         rating: 0,
         duration: "TBA",
         genre: "Action, Adventure",
@@ -161,7 +161,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 10,
         title: "Blade",
-        image: "/placeholder.svg?height=300&width=200&text=Blade+Movie",
+        image: "/movies/blade.png",
         rating: 0,
         duration: "TBA",
         genre: "Action, Horror",
@@ -174,7 +174,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 11,
         title: "Dune: Part Two",
-        image: "/placeholder.svg?height=300&width=200&text=Dune+IMAX",
+        image: "/movies/dunc.png",
         rating: 8.7,
         duration: "166 min",
         genre: "Sci-Fi, Adventure",
@@ -185,7 +185,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 12,
         title: "Oppenheimer",
-        image: "/placeholder.svg?height=300&width=200&text=Oppenheimer+IMAX",
+        image: "/movies/oppenheimer.png",
         rating: 9.2,
         duration: "180 min",
         genre: "Biography, Drama",
@@ -196,7 +196,7 @@ export function MovieSection({ onMovieSelect, searchQuery = "" }) {
       {
         id: 13,
         title: "Avatar: The Way of Water",
-        image: "/placeholder.svg?height=300&width=200&text=Avatar+IMAX",
+        image: "/movies/avatar.png",
         rating: 8.5,
         duration: "192 min",
         genre: "Sci-Fi, Adventure",

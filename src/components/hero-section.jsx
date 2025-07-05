@@ -15,7 +15,7 @@ export function HeroSection({ onMovieSelect }) {
     {
       id: 1,
       title: "Avatar: The Way of Water",
-      image: "/placeholder.svg?height=500&width=800&text=Avatar+Hero",
+      image: "/movies/avatar.png",
       description: "Return to Pandora and experience the magic of James Cameron's epic sequel",
       rating: "8.5/10",
       genre: "Sci-Fi, Adventure",
@@ -24,7 +24,7 @@ export function HeroSection({ onMovieSelect }) {
     {
       id: 2,
       title: "Black Panther: Wakanda Forever",
-      image: "/placeholder.svg?height=500&width=800&text=Black+Panther+Hero",
+      image: "/movies/black-panther.png",
       description: "Honor the legacy of T'Challa in this powerful Marvel sequel",
       rating: "8.2/10",
       genre: "Action, Adventure",
@@ -33,7 +33,7 @@ export function HeroSection({ onMovieSelect }) {
     {
       id: 3,
       title: "Top Gun: Maverick",
-      image: "/placeholder.svg?height=500&width=800&text=Top+Gun+Hero",
+      image: "/movies/top-gun.png",
       description: "Feel the need for speed in this thrilling aerial adventure",
       rating: "9.1/10",
       genre: "Action, Drama",
@@ -42,7 +42,7 @@ export function HeroSection({ onMovieSelect }) {
     {
       id: 4,
       title: "Doctor Strange: Multiverse",
-      image: "/placeholder.svg?height=500&width=800&text=Doctor+Strange+Hero",
+      image: "/movies/dr-strange.png",
       description: "Journey through the multiverse with the Master of Mystic Arts",
       rating: "7.8/10",
       genre: "Action, Fantasy",
@@ -51,7 +51,7 @@ export function HeroSection({ onMovieSelect }) {
     {
       id: 5,
       title: "The Batman",
-      image: "/placeholder.svg?height=500&width=800&text=The+Batman+Hero",
+      image: "/movies/the-batman.png",
       description: "Witness the Dark Knight's most gripping detective story yet",
       rating: "8.7/10",
       genre: "Action, Crime",

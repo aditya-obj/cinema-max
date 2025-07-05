@@ -155,7 +155,7 @@ export function TheaterBooking({
       </div>
 
       {/* Proceed Button */}
-      <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-white">
+      <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-white relative z-10">
         <CardContent className="p-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-center sm:text-left">
